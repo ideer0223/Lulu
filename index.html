@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鹿鹿圣诞快乐</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="./swiper-3.3.1.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
+	<script src="./rem.js"></script>
+</head>
+<body>
+	<audio id="audio" src="./music.mp3" autoplay></audio>
+	<div class="music addMus">
+		<div class='zeo'>♪</div>
+		<!-- <div class='one'>♪</div> -->
+		<!-- <div class='two'>♪</div> -->
+		<!-- <div class='thre'>♪</div> -->
+	</div>
+	<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide  first">
+	            	<div class="first1">
+	            		<img class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" src="./1.png"/>
+	            	</div>
+	            	<div class="first2">
+	            		<img class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s" src="./2.png"/>
+	            	</div>
+	            	<div class="first3">
+	            		<img class="ani" swiper-animate-effect="shake" swiper-animate-duration="1s" swiper-animate-delay="0.8s" src="./3.png"/>
+	            	</div>
+	            	<div class="first4">
+	            		<img class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s" src="./4.png"/>
+	            	</div>
+	            	<div class="first5"> 
+	            		<img class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s" src="./5.png"/>
+	            	</div>
+	            	<div class="first6">
+	            		<img class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s" src="./6.png"/>
+	            	</div>
+	            	<div class="first7">
+	            		<img src="./7.png"/>
+	            	</div>
+					<div class="arrow">
+						<img src="./19.png">
+					</div>
+	            </div>
+	            <div class="swiper-slide sec">
+	            	<div class="sec1">
+	            		<img class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" src="./8.png"/>
+	            	</div>
+	            	<div class="sec2">
+	            		<img class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s" src="./9.png"/>
+	            	</div>
+	            	<div class="sec3">
+	            		<img class="ani" swiper-animate-effect="flash" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s" src="./10.png"/>
+	            	</div>
+	            	<div class="sec4">
+	            		<img class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="1s" src="./11.png"/>
+	            	</div>
+	            	<div class="sec5">
+	            		<img  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.3s" src="./12.png"/>
+	            	</div>
+	            	<div class="sec6">
+	            		<img  src="./7.png"/>
+	            	</div>
+	            	<div class="arrow">
+						<img src="./19.png">
+					</div>
+	            </div>
+	            <div class="swiper-slide thr">
+	            	<div class="thr1">
+	            		<img class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" src="./14.png"/>
+	            	</div>
+	            	<div class="thr2">
+	            		<img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.7s" swiper-animate-delay="0.5" src="./15.png"/>
+	            	</div>
+	            	<div class="thr3">
+	            		<img class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="1s" src="./16.png"/>
+	            	</div>
+	            	<div class="thr4">
+	            		<img class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1.3s" src="./18.png"/>
+	            	</div>
+	            	<div class="thr5">
+	            		<img class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s" src="./7.png"/>
+	            	</div>
+	            	<div class="zf1">
+	            		
+	            		<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.7s">💗小鹿姐姐💗</br>🌺感谢一直以来的陪伴🌺</br>🎉圣诞节快乐吖🎉</br>💗很想很想你💗</p>
+	            		
+	            	</div>
+	            	<div class="zf2">
+	            		<span class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s">--爱你的弟弟</span>
+	            	</div>
+	            	<div class="arrow">
+						<img src="./19.png">
+					</div>
+	            </div>          
+	        </div>
+	        <div class="swiper-pagination"></div>
+	        <div id="swiper-pagination"></div>
+	    </div>
+</body>
+	<script src="./zepto.js"></script>
+	<script src="./swiper-3.3.1.min.js"></script>
+	<script src="./swiper.animate1.0.2.min.js"></script>
+	<script type="text/javascript">
+		  var mySwiper = new Swiper ('.swiper-container', {
+		  	pagination: '.swiper-pagination',
+	        paginationClickable: true,
+	        direction: 'vertical',
+	        loop:true,
+		  	autoplayDisableOnInteraction:false,
+		  	grabCursor:true,
+			  onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+			    swiperAnimateCache(swiper); //隐藏动画元素 
+			    swiperAnimate(swiper); //初始化完成开始动画
+			  }, 
+			  onSlideChangeEnd: function(swiper){ 
+			    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+			  } 
+ 		 }) 
+ 		  $(".music").click(function(){
+	    	if(audio.paused){
+	    		audio.play();
+	    		$(".music").addClass("addMus");
+	    		$(".music div").eq(0).siblings().show();
+	    	}else{
+	    		audio.pause();
+	    		$(".music").removeClass("addMus");
+	    		$(".music div").eq(0).siblings().hide();
+	    	}
+	    })
+ 		  
+	</script>
+
+</html>
